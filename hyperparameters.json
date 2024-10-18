@@ -1,0 +1,8 @@
+{
+    "token_dim": 64,
+    "channel_dim": 64,
+    "expert_dim": 64,
+    "adapt_dim": 32,
+    "num_experts": 4,
+    "lambda_entropy": 0.01
+}

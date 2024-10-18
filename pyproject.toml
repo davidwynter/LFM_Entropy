@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "lfmodel-with-entropy"
+version = "0.1.0"
+description = "Liquid Foundation Model with Entropy Regularization"
+readme = "README.md"
+authors = ["David Wynter daed@yambina.com"]
+license = "MIT"
+keywords = ["machine learning", "deep learning", "entropy", "neural networks"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/davidwynter/LFM_Entropy"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = {url = "https://download.pytorch.org/whl/cu118/torch-2.5.0%2Bcu118-cp310-cp310-linux_x86_64.whl"}
+numpy = "^1.18.0"
+
+[tool.poetry.scripts]
+lfmodel_train = "lfmodel.main:main"
+
+[tool.setuptools.package-data]
+"." = ["*.json"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

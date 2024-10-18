@@ -2,7 +2,7 @@
 An experiment applying Entropy to a Liquid Foundation Model (LFM)
 The ideas for this come from https://github.com/kyegomez/LFM and https://github.com/xjdr-alt/entropix
 
-At this point it is mearly theoretical, I am trying to grok how it might work, it has not been tested.
+At this point it is merely theoretical, I am trying to grok how it might work, it has not been tested.
 
 # LFModel with Entropy Regularization
 
